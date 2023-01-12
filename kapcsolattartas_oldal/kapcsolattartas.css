@@ -1,0 +1,18 @@
+body {
+    background: #EA4956;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.icon {
+    font-size: 5em;
+    color: #111620;
+    margin-top: 100px;
+
+}
