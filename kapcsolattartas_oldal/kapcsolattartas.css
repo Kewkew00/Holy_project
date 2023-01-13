@@ -1,5 +1,5 @@
 body {
-    background: #EA4956;
+    background: #111620;
 }
 
 .container {
@@ -11,8 +11,43 @@ body {
 }
 
 .icon {
-    font-size: 5em;
-    color: #111620;
+    font-size: 6em;
+    color: #EA4956;
     margin-top: 100px;
+}
+
+.cim {
+    color: #EA4956;
+    font-size: 3em;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.szoveg {
+    font-size: 1.2em;
+    color: #EA4956;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
