@@ -1,5 +1,5 @@
 * {
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' ,sans-serif;
@@ -12,65 +12,75 @@ body {
     margin: 5px 5px 0px 5px;
 }
 
-.picture{
-    padding: 10px;
+img{
+    width: 100%;
 }
 
-.hattervideo img{
-    width: 100%;
-    height: auto;
+.kevin{
+    width: 160px;
+    height: 100px;
+    margin-bottom: 230px;
+    color: #EA4956;
+    text-align: center;
 }
 
-.gallelry {
-    width: 100%;
-    height: auto;
+.tarr{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 230px;
+    color: #EA4956;
+    text-align: center;
+}
+
+.dudas{
+    width: 245px;
+    height: 100px;
+    margin-bottom: 230px;
+    color: #EA4956;
+    text-align: center;
+}
+
+.dudas img{
+    border-radius: 30px;
+}
+
+.kevin img{
+    border-radius: 30px;
+}
+
+.tarr img{
+    border-radius: 30px;
+}
+
+.container {
+    position: relative;
     display: flex;
-    margin: 5% auto 0;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
 }
 
-.image-box {
-    margin: 0 1%;
-    flex-grow: 1;
-    flex-basis: 0;
-    transition: 0.5s;
+p{
+    padding-top: 10px;
+    font-size: 24px;
 }
 
-.image-box img {
-    width: 100%;
-    height: 355px;
-    object-fit: cover;
-    transition: 0.5s;
-}
-
-.image-box:hover {
-    flex-basis: 35%;
-}
-
-.gallelry .active {
-    flex-basis: 35%;
-}
-
-.gallelry:hover .active {
-    flex-basis: 0;
-}
-
-.gallelry .image-box:nth-child(1):hover {
-    flex-basis: 35%;
+.box{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .oldalsav {
     position: relative;
-    padding: 15px;
+    padding: 50px;
     background: linear-gradient(45deg,#EA4956, #111620); 
-    margin-right: 5px;
+    margin-right: 10px;
     animation: color 12s ease-in-out infinite;
-    width: 160px;
-}
-
-@keyframes color{
-    0% {background-position: 0 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0 50%;}
 }
 
 .cimsor {
@@ -78,58 +88,11 @@ body {
     text-align: center;
 }
 
-.container {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-
-.container .box {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background: #323232;
-    display: flex;
-   
-}
-
-.container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.box .content img {
-    width: 100%;
-}
-
 .hattervideo {
     margin-top: 0px;
     overflow: hidden;
     margin: 0;
     padding: 0;
-}
-
-.container .box .content .text {
-    color:#EA4956 ;
-}
-
-.palyaszoveg {
-    color:#EA4956 ;
-    text-align: justify;
-    padding: 15px;
-    margin-top: 10px;
-    line-height: 1.6;
-}
-
-h4{
-    margin-bottom: 15px;
 }
 
 footer {
@@ -142,7 +105,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 footer .social_icon, footer .menu{
